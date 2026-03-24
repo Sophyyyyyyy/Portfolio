@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Портфолио Софьи</title>
+</head>
+<body>
+    
+    <section id="nav">    
+        <div class="fixedmenu">
+            <h1 class="logo">SS</h1>
+            <div class="navlinks">
+                <a class="navll main-link active" href="#main">Главная</a>
+                <a class="navll about-link" href="#about">Обо мне</a>
+                <a class="navll works-link" href="#works">Работы</a>
+                <a class="navll skills-link" href="#skills">Навыки</a>
+                <a class="navll comments-link" href="#comments">Отзывы</a>
+            </div>
+    
+            <div class="mobileBTN">
+                <img class="mobile-btn js-mobile-open" src="img/mobile_menu.png" width="40">
+                <img class="mobile-btn btn-hide js-mobile-close" src="img/close_menu.png" width="40">
+            </div>
+
+            <div class="mobileMEN hide">
+                <div class="mobile-nav">
+                    <div class="mobnavlinks">
+                        <a class="navll main-link active" href="#main">Главная</a>
+                        <a class="navll about-link" href="#about">Обо мне</a>
+                        <a class="navll works-link" href="#works">Работы</a>
+                        <a class="navll skills-link" href="#skills">Навыки</a>
+                        <a class="navll comments-link" href="#comments">Отзывы</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="main">
+        <div class="main-block">
+            <div class="main-content">
+                <h1 class="main-title">СОФЬЯ СУХАЧЁВА</h1>
+                <p class="main-subtitle">личная страница разработчика</p>
+            </div>
+
+            <div class="moving-planet"></div>
+            
+            <div id="button">
+                <a href="#">Подробнее</a>
+            </div>
+        </div>
+     </section>
+
+
+     <section id="about">
+        <h1 class="title">ОБО МНЕ</h1>
+        <div class="about-block">
+            <div class="about-content">
+                <div class="about-info-side">
+                    <p class="about-text">
+                        Меня зовут Софья. Я занимаюсь программированием сайтов. <br><br>
+                        Я просто обожаю заниматься созданием и дизайном веб-страниц! 
+                    </p>
+                    <div class="buttonAB">
+                        <a href=".titleS">Мои навыки</a>
+                    </div>
+                </div>
+
+                <div class="about-card">
+                    <div class="card-img-wrap">
+                        <img src="img/photo.png" alt="Софья">
+                    </div>
+                    <div class="card-data">
+                        <p>Где живу: Саратовская область</p>
+                        <p>Возраст: 12</p>
+                        <p>Дата рождения: 2013</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+     
+
+    <section id="works">
+        <h1 class="titw">МОИ РАБОТЫ</h1>
+         <div class="worksB"><div>
+            <div class="b1">
+                <img   src="img/MIwork.png" width="150px">
+                <a>Это моя первая работа. Она получилась довольно неплохой, в принципе, это тоже портфолио, но только лично про меня</a>
+            </div>
+            <div class="b1">
+               <img   src="img/MIwoRR.png" width="150px">
+               <a>Это уже вторая работа. Она вдохновленна одной из игр. Я делала, что-то на подобии статьи, что бы было легче игрокам</a>
+            </div>
+        </div>
+     </section>
+
+
+     <section id="skills">
+        <h1 class="titleS">НАВЫКИ</h1>
+         <div class="skills-block">
+           <div class="skills-card">
+                <p>ЭТОТ САЙТ Я СОЗДАЛА В РАМКАХ</p>
+                <p>ОБУЧЕНИЯ В ОНЛАЙН ШКОЛЕ</p> 
+                <p>ROCKET TECH SCHOOL</p>
+                <div class="laungages">
+                    <img id="a1" src="img/html.png" width="85">
+                    <img id="b2" src="img/css.png" width="85">
+                    <img id="c3" src="img/js.png" width="85">
+                </div>
+                
+                <div class="moving-planet2"></div>
+           </div>
+         </div>
+         <div class="buttonS">
+                    <a href="#works">Смотреть работы</a>
+                </div>
+     </section>
+
+
+     <section id="comments">
+        <h1 class="comt">ОТЗЫВЫ</h1>
+        <br>
+         <div class="comblock">
+           <div id="comcard">
+           <h1 id="com">Пока что этот раздел пустует! <br> 
+            Но это можно исправить!</h1>
+            <br>
+           <h3 id="iid">/если понравились работы или хотите дать совет, пишите, автору будет очень приятно :3/</h3>
+           </div>
+         </div>
+        <img id="pl">
+        <br> <br> <br>
+           <form >
+             <input type="text" id="a3a" placeholder="комментарий">
+             <br>
+             <a href="" class="btn3" onclick="confirm()">Отправить</a>
+           </form>
+     </section>
+
+     
+     <footer class="fott">
+        <div class="fottInfo">
+            <p>СОФЬЯ СУХАЧЁВА</p>
+            <p>личный сайт веб разработчика</p>
+        </div>
+
+        <div class="fottYear">
+            <p>© 2026</p>
+        </div>
+
+        <div class="fottLINKS">
+            <a href="#"> <img src="img/facebook.svg"> </a>
+       <a href="#"> <img src="img/instagram.svg"> </a>
+       <a href="#"> <img src="img/telegram.svg"> </a>
+       <a href="#"> <img src="img/discord.svg"> </a>
+        </div>
+     </footer>
+
+    <script src="lava.js"></script>
+</body>
+</html>
